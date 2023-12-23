@@ -55,8 +55,8 @@ img {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
-      max-width: 1440px;
-   margin-right: auto;
+  max-width: 1440px;
+  margin-right: auto;
   margin-left: auto;
 }
 
@@ -218,8 +218,8 @@ img {
 /* hidden element */
 
 .info {
-    max-width: 1440px;
-   margin-right: auto;
+  max-width: 1440px;
+  margin-right: auto;
   margin-left: auto;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -281,7 +281,7 @@ img {
 
 .team {
   max-width: 1440px;
-   margin-right: auto;
+  margin-right: auto;
   margin-left: auto;
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -553,13 +553,13 @@ img {
   margin-left: 80px;
 }
 
-.form-label {
-  margin-bottom: 16px;
+.form-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 16px;
 }
 
 .footer-form {
@@ -590,6 +590,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-width: 165px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -599,7 +600,7 @@ img {
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
-  border-right: 4px;
+  border-radius: 4px;
 }
 
 .btn-wrap:hover,
@@ -610,7 +611,7 @@ img {
 }
 
 .footer-icon {
-  margin-left: 15px;
+  margin-left: 16px;
   fill: var(--WHITE, #fff);
 }
 
@@ -750,6 +751,7 @@ img {
 .user-comment {
   width: 100%;
   height: 120px;
+  color: rgba(46, 47, 66, 0.4);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -819,8 +821,6 @@ img {
   color: var(--IRIS, #4d5ae5);
   text-decoration-line: underline;
 }
-
-
 
 .modal .btn {
   display: block;
